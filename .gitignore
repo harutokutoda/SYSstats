@@ -1,0 +1,15 @@
+cat > ~/systemstats/.gitignore <<'EOF'
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Runtime junk
+*.log
+*.tmp
+.cache/
+EOF
+
